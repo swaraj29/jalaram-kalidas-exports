@@ -1,0 +1,25 @@
+/* home.css */
+
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+  background: url('../assets/images/hero-image.jpg') no-repeat center center/cover;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.5em;
+  margin-top: 10px;
+}
+
+section {
+  padding: 20px;
+  background-color: #fff;
+  margin-top: 20px;
+  border-radius: 8px;
+}

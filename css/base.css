@@ -1,0 +1,58 @@
+/* base.css */
+
+/* Reset margins and padding for consistency */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global font family and base styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  font-size: 16px;
+  color: #333;
+  background-color: #f4f4f4;
+}
+
+#main-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Header and footer specific styles */
+header, footer {
+  padding: 20px 0;
+  background-color: #333;
+  color: white;
+}
+
+header a, footer a {
+  color: white;
+  padding: 10px;
+}
+
+footer {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 20px;
+}
